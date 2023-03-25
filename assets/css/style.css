@@ -12,7 +12,7 @@ header {
 
 nav {
     display: flex;
-    background-color: #7fcfd8;
+    background-color: #61f8f8;
     justify-content: flex-end;
     
   }
@@ -52,7 +52,20 @@ nav a {
 
   .Me {
     text-align: end;
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+
   }
 
+footer {
+  display: block;
+  text-align: center;
+}
 
+footer p {
   
+
+}
