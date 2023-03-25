@@ -1,6 +1,3 @@
-* {
-  
-}
 
 header {
     padding: 50px;
@@ -17,7 +14,7 @@ nav {
     
   }
 
-nav a {
+ul a {
     color: #07121c;
     padding: 20px 20px;
     text-decoration: underline;
@@ -38,34 +35,38 @@ nav a {
     padding: 14px 20px;
     text-decoration: none;
     text-align: start;
+    
   }
 
-  img h2 {
+  .me img {
     text-align: end;
+    
   }
   
  p {
     color: darkslateblue;
-    background-color: white;
     text-align: end;
   }
 
-  .Me {
+  .me {
     text-align: end;
     margin-bottom: 20px;
+    margin-top: 20px;
     padding: 50px;
     height: 300px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: #0072bb;
+    background-color: #6fca69;
+    box-sizing: border-box;
 
   }
 
-footer {
+#footer {
   display: block;
   text-align: center;
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  box-sizing: border-box;
+  list-style: none;
 }
 
-footer p {
-  
-
-}
