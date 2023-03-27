@@ -1,3 +1,5 @@
+
+
 body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 0;
@@ -5,6 +7,8 @@ body {
   flex-direction: column;
   min-height: 100vh;
   justify-content: flex-start; 
+  background-color: rgb(243, 148, 70);
+  background-image: url(https://wallpapertag.com/wallpaper/middle/1/5/6/867774-professional-desktop-wallpaper-2560x1440-windows-10.jpg);
 }
 
 header {
@@ -18,9 +22,13 @@ header {
     border-radius: 5px;
   }
 
+  .header {
+    background-image: url(https://media.licdn.com/dms/image/C5616AQFNKrMpeU87XQ/profile-displaybackgroundimage-shrink_350_1400/0/1582519337396?e=1685577600&v=beta&t=8eLYDjF-xzwU9mYBdCWcIuo2zcfg3j0VCvcOg8E0Rnk) 
+  }
+
 h1::after {
   content: 'Borroel';
-  color:rgb(118, 215, 160);
+  color:rgb(218, 133, 233);
   margin-left: 5px;
   font-family: Arial, Helvetica, sans-serif;
 }
@@ -30,6 +38,7 @@ nav {
     flex-wrap: wrap;
     background-color: #61f8f8;
     justify-content: flex-end;
+   
     
   }
 
@@ -64,7 +73,7 @@ ul a {
     margin: 20px;
     margin-left: 0;
     margin-right: 5px;
-   
+   width: 450px; 
     text-align: end;
     padding: 50px, 5px;
     height: 700px;
@@ -74,16 +83,16 @@ ul a {
   
   }
 
-
-  
-
   #te img {
-   width: 200px;
-    margin: auto;
-   position: static;
-    display: block;
-    justify-content: left;
-    
+  width: 200px;
+  margin: auto;
+  position: relative;
+  right: 100px;
+  display: block;
+  
+ 
+  border-radius: 50%;
+   
   }
 
   
@@ -109,22 +118,25 @@ ul a {
     margin-bottom: 20px;
     margin-top: 20px;
     padding: 50px;
-    height: 300px;
+    height: 330px;
     background-color:#69ca9d;
     box-sizing: border-box;
     border-style: dotted;
     border-radius: 5px;
     
+    
 
   }
 
-  .me img {
+  .content img {
     width: 200px;
     margin: auto;
    position: relative;
    left: 20%;
    bottom: 80%;
     display: block;
+    border-radius: 5%;
+   
   }
 
 
