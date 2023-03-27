@@ -1,11 +1,11 @@
-
+:root {
+  --font-family: sans-serif;
+}
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
   margin: 0;
   display: flex;
   flex-direction: column;
-  min-height: 100vh;
   justify-content: flex-start; 
   background-color: rgb(243, 148, 70);
   background-image: url(https://wallpapertag.com/wallpaper/middle/1/5/6/867774-professional-desktop-wallpaper-2560x1440-windows-10.jpg);
@@ -15,7 +15,6 @@ header {
     width: 100%;
     padding: 50px;
     text-align: center;
-    background: #050f01;
     color: #fff;
     box-sizing: border-box;
     border-style: dotted;
@@ -30,43 +29,34 @@ h1::after {
   content: 'Borroel';
   color:rgb(218, 133, 233);
   margin-left: 5px;
-  font-family: Arial, Helvetica, sans-serif;
+  font: sans-serif;
 }
 
 nav {
     display: flex;
     flex-wrap: wrap;
-    background-color: #61f8f8;
+    background-color: #b1eeee;
+    opacity: 70%;
     justify-content: flex-end;
-   
-    
   }
 
 ul a {
     color: #07121c;
     padding: 20px 20px;
     text-decoration: underline;
-   
   }
 
  * h2 {
     color: white;
     padding: 4px 20px;
     text-align: start;
-    
   }
 
-
-
-
   #te {
-    flex: 1;
     background-color: rgb(2, 2, 19);
     padding: 20px;
-    display: flex;
     float: left;
     box-sizing: border-box;
-
     border: #4eba27;
     display: flex;
     flex-wrap: wrap;
@@ -75,24 +65,24 @@ ul a {
     margin-right: 5px;
    width: 450px; 
     text-align: end;
-    padding: 50px, 5px;
     height: 700px;
    border-radius: 5px;
     border-style: dotted;
     
-  
   }
 
   #te img {
   width: 200px;
+  top: 30px;
   margin: auto;
   position: relative;
-  right: 100px;
+  right: 150px;
   display: block;
-  
- 
   border-radius: 50%;
-   
+  }
+
+  #te img:hover {
+    opacity: 0.5;
   }
 
   
@@ -123,9 +113,6 @@ ul a {
     box-sizing: border-box;
     border-style: dotted;
     border-radius: 5px;
-    
-    
-
   }
 
   .content img {
@@ -140,6 +127,7 @@ ul a {
   }
 
 
+
 #footer {
   display: block;
   
@@ -147,6 +135,7 @@ ul a {
   padding: 50px;
   height: 300px;
   box-sizing: border-box;
+  background-image: url(https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Ftse2.mm.bing.net%2Fth%3Fid%3DOIP.rJX5T85RCTw-wTudEB40fAHaE8%26pid%3DApi&f=1&ipt=6ce8ff4a444bd9631f7c4a97125b1d862b1a96ed58616af772b0ede1697d17b2&ipo=images);
 }
 
 #footer ul {
