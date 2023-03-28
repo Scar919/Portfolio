@@ -13,9 +13,6 @@ The motivation behind this project was to have a portfolio to show case all of m
 
 Lastly, if your project is deployed, include a link to the deployed application here.
 
-If you're new to Markdown, read the GitHub guide on [Mastering Markdown](https://guides.github.com/features/mastering-markdown/).
-
-If you need an example of a good README, check out [the VSCode repository](https://github.com/microsoft/vscode).
 
 
 
@@ -23,17 +20,18 @@ If you need an example of a good README, check out [the VSCode repository](https
 
 Creating my portfolio website makes it easier to display all of my work in one place.
 
-```md
-![alt text](assets/images/screenshot.png)
-```
 
+![Portfolio](./assets/Images/Screenshot.png)
+
+## Learning points
+In this project I found that I came into several run-in's with flex-box layout 
 
 ## License
 
 N/A
 
+## Credits
+N/A
 
-## Features
 
-If your project has a lot of features, consider adding a heading called "Features" and listing them there.
 
