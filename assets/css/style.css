@@ -3,9 +3,9 @@
 }
 
 body {
-  margin: 0;
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
   justify-content: flex-start; 
   background-color: rgb(243, 148, 70);
   background-image: url(https://wallpapertag.com/wallpaper/middle/1/5/6/867774-professional-desktop-wallpaper-2560x1440-windows-10.jpg);
@@ -63,16 +63,16 @@ ul a {
     margin: 20px;
     margin-left: 0;
     margin-right: 5px;
-   width: 450px; 
+    width: 450px; 
     text-align: end;
     height: 700px;
-   border-radius: 5px;
+    border-radius: 5px;
     border-style: dotted;
     
   }
 
   #te img {
-  width: 200px;
+  width: 220px;
   top: 30px;
   margin: auto;
   position: relative;
@@ -90,8 +90,8 @@ ul a {
  p {
     color: rgb(139, 61, 97);
     text-align: start;
-    justify-content: center;
-    display: block;
+    justify-content: left;
+    display: flex;
   }
 
 .content {
@@ -101,7 +101,15 @@ ul a {
     
   }
 
+a #my-work {
+  margin-bottom: 30px;
+}
 
+  a:-webkit-any-link {
+    color: -webkit-link;
+    cursor: pointer;
+    text-decoration: none;
+  }
 
   .me {
     text-align: end;
@@ -109,7 +117,7 @@ ul a {
     margin-top: 20px;
     padding: 50px;
     height: 330px;
-    background-color:#69ca9d;
+    background-color:#efb95c;
     box-sizing: border-box;
     border-style: dotted;
     border-radius: 5px;
@@ -118,14 +126,17 @@ ul a {
   .content img {
     width: 200px;
     margin: auto;
-   position: relative;
-   left: 20%;
-   bottom: 80%;
+    position: relative;
+    left: 20%;
+    bottom: 80%;
     display: block;
     border-radius: 5%;
    
   }
 
+  .content img:hover {
+    opacity: 0.5;
+  }
 
 
 #footer {
@@ -139,11 +150,17 @@ ul a {
 }
 
 #footer ul {
-  list-style-type: none;
+
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
   text-align: center;
+  justify-content: space-between;
+ 
+}
+
+#footer p {
+  color: #050101;
 }
 
 @media screen and (max-width: 768px) {
@@ -151,3 +168,9 @@ ul a {
   flex-direction: column;
  }
 }
+
+@media screen and (max-width: 99px) {
+  main, nav, h1, h2 {
+   flex-direction: column;
+  }
+ }
